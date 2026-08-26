@@ -34,8 +34,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0
       output-files:
-        specifier: ^2.0.32
-        version: 2.0.32
+        specifier: ^4.0.0
+        version: 4.0.0
       playwright:
         specifier: ^1.53.0
         version: 1.53.0
@@ -2857,6 +2857,7 @@ packages:
   eslint@9.29.0:
     resolution: {integrity: sha512-GsGizj2Y1rCWDu6XoEekL3RLilp0voSePurjZIkxL3wlm5o5EC9VpgaP7lrCvjnkuLvzFBQWB3vWB3K5KQTveQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -4585,6 +4586,10 @@ packages:
   output-files@2.0.32:
     resolution: {integrity: sha512-E4lArd+sN7ILmv2jAasFoXP6XGvaKGTYNKSNHBn+zcGSWzrYXye5Y5L6v2yCrDyXESGKVGrvr5fsd8TUvRYvOQ==}
     engines: {node: '>=14'}
+
+  output-files@4.0.0:
+    resolution: {integrity: sha512-WfOFV7mEwTisw3atSd2PcMx0+6ZrQk3iYRu6mwQS54XN6d3I5PWqDoT4T6nBdIxiDQFNyEoLOJvciyeCMLcaCQ==}
+    engines: {node: '>=22'}
 
   oxc-parser@0.72.3:
     resolution: {integrity: sha512-JYQeJKDcUTTZ/uTdJ+fZBGFjAjkLD1h0p3Tf44ZYXRcoMk+57d81paNPFAAwzrzzqhZmkGvKKXDxwyhJXYZlpg==}
@@ -11689,6 +11694,10 @@ snapshots:
   output-files@2.0.32:
     dependencies:
       '@dword-design/functions': 4.1.7
+      fs-extra: 11.3.0
+
+  output-files@4.0.0:
+    dependencies:
       fs-extra: 11.3.0
 
   oxc-parser@0.72.3:
