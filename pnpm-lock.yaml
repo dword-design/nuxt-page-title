@@ -43,8 +43,8 @@ importers:
         specifier: ^1.53.0
         version: 1.53.0
       tree-kill-promise:
-        specifier: ^3.0.14
-        version: 3.0.14
+        specifier: ^5.0.0
+        version: 5.0.0
 
 packages:
 
@@ -2857,6 +2857,7 @@ packages:
   eslint@9.29.0:
     resolution: {integrity: sha512-GsGizj2Y1rCWDu6XoEekL3RLilp0voSePurjZIkxL3wlm5o5EC9VpgaP7lrCvjnkuLvzFBQWB3vWB3K5KQTveQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -5798,9 +5799,9 @@ packages:
     resolution: {integrity: sha512-aXJDbk6SnumuaZSANd21XAo15ucCDE38H4fkqiGsc3MhCK+wOlZvLP9cB/TvpHT0mOyWgC4Z8EwRlzqYSUzdsA==}
     engines: {node: '>= 0.4'}
 
-  tree-kill-promise@3.0.14:
-    resolution: {integrity: sha512-HMWDVJq3oby7uxA2AKVThX5fKkF7GPT3FhjNb75tG/6P4tQBtIhElaSucFHFMlBV5f3e+KPqIlHsJVZjueKX/A==}
-    engines: {node: '>=14'}
+  tree-kill-promise@5.0.0:
+    resolution: {integrity: sha512-KHqu1wzZCXYhwE26pj+g49VRnpJ68rtaIr7ycosNpoAw8rwpZSOwek1l9M99wFfFbuEO6WFeXGla0MGlDCTSLQ==}
+    engines: {node: '>=22'}
 
   tree-kill@1.2.2:
     resolution: {integrity: sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==}
@@ -12918,7 +12919,7 @@ snapshots:
 
   traverse@0.6.8: {}
 
-  tree-kill-promise@3.0.14:
+  tree-kill-promise@5.0.0:
     dependencies:
       tree-kill: 1.2.2
 
